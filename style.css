@@ -1,16 +1,128 @@
-.center {
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.flats_homepage_bg_img_container {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flats_homepage_card_container {
+    background-color: #ffffff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 50px;
     text-align: center;
-    background-color: burlywood;
-    border-radius: 8px;
-    color: aliceblue;
 }
 
-.button {
-    border-radius: 8px;
-    border: 0px;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    margin: 12px;
+.flats_homepage_heading {
+    font-family: "Bree Serif";
+    color: #f19116;
+    font-size: 25px;
 }
 
+.flats_homepage_description {
+    font-family: "Bree Serif";
+    color: #7b8794;
+    font-size: 16px;
+}
+
+.flats_homepage_btn {
+    background-color: #f19116;
+    color: #ffffff;
+    border-radius: 3px;
+    border-width: 0px;
+    font-size: 11px;
+    width: 80px;
+    height: 28px;
+}
+
+.flat_listpage_bg_color_container {
+    background-color: #222222;
+    width: 100vw;
+    height: 100vh;
+    padding: 14px;
+}
+
+.flat_listpage_main_heading {
+    font-family: "Bree Serif";
+    color: #f19116;
+    font-size: 28px;
+    margin-top: 16px;
+}
+
+.flat_listpage_card_container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+
+.flat_listpage_img {
+    height: 145px;
+    width: 80px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.flat_listpage_text_container {
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.flat_listpage_heading {
+    font-family: "Bree Serif";
+    color: #0f0e46;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.flat_listpagge_description {
+    font-family: "Bree Serif";
+    color: #6c6b70;
+    font-size: 11px;
+}
+
+.flat_details_img {
+    width: 100vw;
+    height: 33vh;
+}
+
+.flat_details_card {
+    background-color: #222222;
+    width: 100vw;
+    height: 67vh;
+    padding: 22px;
+}
+
+.flats_details_price {
+    font-family: "Bree Serif";
+    color: #f19116;
+    font-size: 28px;
+}
+
+.flat_details_address_container {
+    margin-top: 26px;
+}
+
+.flat_details_location_img {
+    height: 36px;
+}
+
+.flat_details_address {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.flat_details_description_heading {
+    font-family: "Bree Serif";
+    color: #f19116;
+    font-size: 38px;
+}
+
+.flat_details_description {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 16px;
+}
